@@ -64,7 +64,7 @@ Il s'agit de la couche la plus externe qui comprend les détails techniques : UI
 ## Schéma synthétique de la Clean Architecture
 
 ```mermaid
-graph TD
+graph LR
   Entities((Entités))
   UseCases((Cas d'Utilisation))
   InterfaceAdapters((Adaptateurs d'Interface))
@@ -103,4 +103,4 @@ Ainsi, une modification du framework web (ex: migration de Angular vers React) n
 
 ## Conclusion
 
-La Clean Architecture organise le logiciel en couches indépendantes et bien définies, du cœur métier aux détails techniques. Cette organisation assure une grande flexibilité, rend les tests plus simples et facilite la maintenance en isolant les préoccupations. Comprendre ces couches est fondamental pour concevoir des systèmes robustes et évolutifs.
+La Clean Architecture organise le logiciel en couches indépendantes et bien définies, du cœur métier aux détails techniques. Cette organisation assure une grande flexibilité, rend les tests plus simples et facilite la maintenance en isolant les préoccupations.

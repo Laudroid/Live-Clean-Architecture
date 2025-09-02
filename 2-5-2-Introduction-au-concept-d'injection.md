@@ -56,7 +56,7 @@ client.faire_travail()
 
 ---
 
-## 4. Diagramme Mermaid illustrant DI par constructeur
+## 4. Diagramme illustrant DI par constructeur
 
 ```mermaid
 classDiagram
@@ -93,7 +93,7 @@ De nombreux frameworks et conteneurs DI existent dans divers langages :
 - Spring (Java)
 - .NET Core Dependency Injection
 - Angular (TypeScript)
-- Guice (Java)
+- Symfony (PHP)
 
 Ils automatisent l’injection, la gestion du cycle de vie et la configuration des dépendances.
 

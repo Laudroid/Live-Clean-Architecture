@@ -69,13 +69,16 @@ class MachineMultifonction implements Imprimante, Scanner, Fax {
 
 ```mermaid
 classDiagram
-    interface Imprimante {
+    class Imprimante {
+        <<interface>>
         +imprimer(Document d)
     }
-    interface Scanner {
+    class Scanner {
+        <<interface>>
         +scanner(Document d)
     }
-    interface Fax {
+    class Fax {
+        <<interface>>
         +faxer(Document d)
     }
 

@@ -69,7 +69,7 @@ L’architecture devient résistante aux changements externes (modification API,
 ## Schéma global d’indépendance dans la Clean Architecture
 
 ```mermaid
-graph TD
+graph LR
   Entities((Entités))
   UseCases((Cas d'utilisation))
   InterfaceAdapters((Adaptateurs d'Interface))

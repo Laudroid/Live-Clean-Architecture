@@ -65,7 +65,7 @@ Cela empêche d'utiliser des sous-classes dans des contextes génériques sans r
 
 ---
 
-## 4. Illustration Mermaid : hiérarchie incorrecte menant à une violation du LSP
+## 4. Illustration : hiérarchie incorrecte menant à une violation du LSP
 
 ```mermaid
 classDiagram

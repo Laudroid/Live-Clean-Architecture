@@ -129,4 +129,4 @@ classDiagram
 
 ---
 
-Appliquer le DIP transforme la structure de votre code, permettant un découplage efficace grâce à l’utilisation d’abstractions. Cette inversion des dépendances assure flexibilité, facilité d’évolution et testabilité dans les architectures modernes.
+Appliquer le DIP transforme la structure de votre code, permettant un découplage efficace grâce à l’utilisation d’abstractions.

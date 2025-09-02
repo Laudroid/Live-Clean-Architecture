@@ -11,7 +11,7 @@ La règle majeure de la Clean Architecture est que **les dépendances doivent to
 ### Illustration simple
 
 ```mermaid
-graph TD
+graph LR
   Entities((Entités Métier))
   UseCases((Cas d’Utilisation))
   InterfaceAdapters((Adaptateurs d’Interface))

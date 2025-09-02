@@ -91,7 +91,7 @@ class ServiceEmail:
 
 ---
 
-## 4. Illustration Mermaid : Cohésion et Couplage améliorés par SRP
+## 4. Cohésion et Couplage améliorés par SRP
 
 ```mermaid
 graph LR
@@ -115,6 +115,3 @@ Après refactorisation, les dépendances non essentielles disparaissent, et chaq
 - [GeeksforGeeks - Cohesion and Coupling](https://www.geeksforgeeks.org/cohesion-and-coupling-in-software-engineering/)  
 - [Medium - How SRP improves Cohesion and Coupling](https://medium.com/@ashhitch/how-single-responsibility-principle-improves-code-quality-d84f62ea414b)  
 
----
-
-Appliquer correctement le SRP c’est investir dans une architecture cohésive et faiblement couplée, ce qui simplifie grandement la maintenance, l’évolution et les tests du logiciel.

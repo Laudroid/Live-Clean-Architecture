@@ -1,4 +1,4 @@
-# Le Principe Ouvert/Fermé (OCP) : Concevoir des entités extensibles sans modification
+# Le Principe Ouvert/Fermé (OCP)
 
 Le Principe Ouvert/Fermé (Open/Closed Principle, OCP) est un des fondements des principes SOLID. Il guide la conception d’un système où les entités logicielles peuvent être **étendues sans modifier leur code source existant**. Cette aptitude est cruciale pour préserver la stabilité du code tout en permettant son évolution.
 
@@ -86,7 +86,7 @@ Pour une nouvelle catégorie client, il suffit de créer une nouvelle classe `Ta
 
 ---
 
-## 5. Diagramme Mermaid illustrant le pattern stratégique OCP
+## 5. Le pattern stratégique OCP
 
 ```mermaid
 classDiagram

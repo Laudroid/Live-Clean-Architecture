@@ -72,33 +72,37 @@ class ImprimanteMultifonction implements Imprimante, Scanner, Fax {
 
 ---
 
-## 5. Diagramme Mermaid : architecture des interfaces découplées
+## 5. Diagramme : architecture des interfaces découplées
 
 ```mermaid
-interfaceDiagram
-interface Imprimante {
-    +imprimer()
-}
-interface Scanner {
-    +scanner()
-}
-interface Fax {
-    +faxer()
-}
+classDiagram
+    class Imprimante {
+        <<interface>>
+        +imprimer()
+    }
+    class Scanner {
+        <<interface>>
+        +scanner()
+    }
+    class Fax {
+        <<interface>>
+        +faxer()
+    }
 
-class ImprimanteBasique {
-    +imprimer()
-}
-class ImprimanteMultifonction {
-    +imprimer()
-    +scanner()
-    +faxer()
-}
+    class ImprimanteBasique {
+        +imprimer()
+    }
+    class ImprimanteMultifonction {
+        +imprimer()
+        +scanner()
+        +faxer()
+    }
 
-Imprimante <|.. ImprimanteBasique
-Imprimante <|.. ImprimanteMultifonction
-Scanner <|.. ImprimanteMultifonction
-Fax <|.. ImprimanteMultifonction
+    Imprimante <|.. ImprimanteBasique
+    Imprimante <|.. ImprimanteMultifonction
+    Scanner <|.. ImprimanteMultifonction
+    Fax <|.. ImprimanteMultifonction
+
 ```
 
 ---

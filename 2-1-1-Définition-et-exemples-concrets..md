@@ -1,4 +1,4 @@
-# Le Principe de Responsabilité Unique (SRP) : Définition et exemples concrets
+# Le Principe de Responsabilité Unique (SRP)
 
 Le Principe de Responsabilité Unique (Single Responsibility Principle, ou SRP) est l’un des cinq piliers des principes SOLID en programmation orientée objet. Il vise à améliorer la clarté, la maintenabilité et la modularité du code en contraignant un module ou une classe à avoir une seule raison de changer.
 
@@ -64,7 +64,7 @@ Chaque classe a désormais une seule responsabilité claire, facilitant la maint
 
 ---
 
-## 3. Illustration en diagramme Mermaid
+## 3. Illustration
 
 ```mermaid
 classDiagram
@@ -104,6 +104,3 @@ classDiagram
 - [Medium - Understanding SRP with Examples](https://medium.com/@jasonekratz/the-single-responsibility-principle-srp-65bf6a94191f)  
 - [Baeldung - SOLID Principles: SRP](https://www.baeldung.com/solid-principles#srp)  
 
----
-
-En respectant le Principe de Responsabilité Unique, le code devient plus robuste, plus clair et plus facile à faire évoluer. C’est une fondation indispensable pour une architecture propre et rationnelle.

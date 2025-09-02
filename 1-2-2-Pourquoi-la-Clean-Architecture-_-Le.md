@@ -100,6 +100,3 @@ Une application mobile utilisant React Native pour l’interface peut changer po
 - [DZone - Benefits of Clean Architecture](https://dzone.com/articles/how-clean-architecture-benefits-your-software-pro)  
 - [Stack Overflow Blog - Practical Software Architecture](https://stackoverflow.blog/2022/01/10/architectural-principles-that-make-software-systems-successful/)  
 
----
-
-La Clean Architecture structure clairement les responsabilités et découple les composants du système, garantissant une maintenabilité, une testabilité et une flexibilité qui facilitent la longévité et la qualité du logiciel.

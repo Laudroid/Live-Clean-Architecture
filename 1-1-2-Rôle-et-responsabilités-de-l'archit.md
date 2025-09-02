@@ -112,6 +112,3 @@ graph TD
 - [LinkedIn - Le métier d'architecte logiciel par Yves Richard](https://fr.linkedin.com/pulse/le-m%C3%A9tier-darchitecte-logiciel-conception-et-au-c%C5%93ur-de-yves-richard)  
 - [Powo - Le maître d'œuvre numérique : l'architecte logiciel](https://www.po-wo.fr/architecte-logiciel-guide/)  
 
----
-
-Cet aperçu met en lumière les multiples facettes de l’architecte logiciel, un acteur clé pour réussir la complexité technique des projets actuels.
